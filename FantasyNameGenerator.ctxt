@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FantasyNameGenerator
+comment0.text=\n\ Write\ a\ description\ of\ class\ FantasyNameGenerator\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=firstName\ lastName
+comment1.target=java.lang.String\ getNewFirstName(java.lang.String,\ java.lang.String)
+comment1.text=\n\ This\ function\ returns\ the\ user's\ new\ first\ name.\ To\ do\ so,\ concatenate\ \n\ the\ first\ 1-3\ letters\ of\ their\ real\ first\ name\ and\ the\ *lowercased*\ \n\ first\ 1-2\ letters\ of\ their\ real\ last\ name.\n\ \n\ Notes\:\ \n\ If\ the\ user's\ first\ name\ is\ less\ than\ 3\ letters,\ use\ the\ first\ two\ letters.\n\ If\ the\ user's\ first\ name\ is\ less\ than\ 2\ letters,\ use\ the\ only\ letter.\n\ If\ the\ user's\ last\ name\ is\ less\ than\ 2\ letters,\ use\ the\ only\ letter.\n
+comment2.params=momMaidenName\ cityBorn
+comment2.target=java.lang.String\ getNewLastName(java.lang.String,\ java.lang.String)
+comment2.text=\n\ This\ function\ returns\ the\ user's\ new\ last\ name.\ To\ do\ so,\ concatenate\ \n\ the\ first\ 1-2\ letters\ of\ their\ mom's\ maiden\ name\ and\ the\ first\ 1-3\ letters\ \n\ of\ the\ *lowercased*\ city\ where\ they\ were\ born.\n\ \n\ Notes\:\ \n\ If\ the\ user's\ mom's\ maiden\ name\ is\ less\ than\ 2\ letters,\ use\ the\ only\ letter.\n\ If\ the\ user's\ birth\ city\ is\ less\ than\ 3\ letters,\ use\ the\ first\ two\ letters.\n\ If\ the\ user's\ birth\ city\ is\ less\ than\ 2\ letters,\ use\ the\ only\ letter.\n
+comment3.params=lastName\ dreamCar
+comment3.target=java.lang.String\ getTitle(java.lang.String,\ java.lang.String)
+comment3.text=\n\ This\ function\ returns\ the\ user's\ title.\ To\ do\ so,\ concatenate\ the\ last\ \n\ 1-3\ letters\ of\ their\ real\ last\ name,\ reversed\ (uppercase\ the\ last\ \n\ letter\ of\ their\ real\ last\ name),\ and\ the\ *lowercased*\ model\ of\ their\ \n\ dream\ car.\n\ \n\ Notes\:\ \n\ If\ the\ user's\ last\ name\ is\ less\ than\ 3\ letters,\ use\ the\ first\ 2.\n\ If\ the\ user's\ last\ name\ is\ less\ than\ 2\ letters,\ use\ the\ only\ letter.\n
+comment4.params=lastName\ dreamCar\ street
+comment4.target=java.lang.String\ getHonorific(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\n\ This\ function\ returns\ the\ user's\ full\ honorific.\ To\ do\ so,\ concatenate\ \n\ their\ title,\ "\ of\ ",\ and\ the\ name\ of\ the\ street\ they\ live\ on.\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ This\ function\ runs\ the\ program.\ At\ the\ very\ least\ it\ should\ ask\ the\ \n\ user\ to\ answer\ a\ series\ of\ questions,\ each\ setting\ one\ of\ the\ global\ \n\ variables\ to\ what\ the\ user\ typed\ in.\ It\ should\ then\ call\ the\ functions\ \n\ above\ to\ produce\ the\ user's\ fantasy\ name\ (set\ fantasyName\ to\ that),\ \n\ and\ display\ it\ for\ the\ user\ to\ see.\n
+numComments=6
