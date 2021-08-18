@@ -15,5 +15,5 @@ comment4.target=java.lang.String\ getHonorific(java.lang.String,\ java.lang.Stri
 comment4.text=\n\ This\ function\ returns\ the\ user's\ full\ honorific.\ To\ do\ so,\ concatenate\ \n\ their\ title,\ "\ of\ ",\ and\ the\ name\ of\ the\ street\ they\ live\ on.\n
 comment5.params=args
 comment5.target=void\ main(java.lang.String[])
-comment5.text=\n\ This\ function\ runs\ the\ program.\ At\ the\ very\ least\ it\ should\ ask\ the\ \n\ user\ to\ answer\ a\ series\ of\ questions,\ each\ setting\ one\ of\ the\ global\ \n\ variables\ to\ what\ the\ user\ typed\ in.\ It\ should\ then\ call\ the\ functions\ \n\ above\ to\ produce\ the\ user's\ fantasy\ name\ (set\ fantasyName\ to\ that),\ \n\ and\ display\ it\ for\ the\ user\ to\ see.\n
+comment5.text=\n\ This\ function\ runs\ the\ program.\ At\ the\ very\ least\ it\ should\ ask\ the\ \n\ user\ to\ answer\ a\ series\ of\ questions,\ each\ setting\ a\ variable\ relevant\n\ to\ what\ the\ user\ typed\ in\ (e.g.,\ firstName).\ It\ should\ then\ call\ the\ \n\ functions\ above\ to\ produce\ the\ user's\ fantasy\ name\ and\ display\ it\ for\ \n\ the\ user\ to\ see.\n
 numComments=6

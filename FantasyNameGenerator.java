@@ -91,10 +91,10 @@ public class FantasyNameGenerator
 
     /**
      * This function runs the program. At the very least it should ask the 
-     * user to answer a series of questions, each setting one of the global 
-     * variables to what the user typed in. It should then call the functions 
-     * above to produce the user's fantasy name (set fantasyName to that), 
-     * and display it for the user to see.
+     * user to answer a series of questions, each setting a variable relevant
+     * to what the user typed in (e.g., firstName). It should then call the 
+     * functions above to produce the user's fantasy name and display it for 
+     * the user to see.
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
